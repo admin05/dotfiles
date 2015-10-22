@@ -3,7 +3,7 @@
 #%{$fg_bold[black]%}>%{$reset_color%} '
 
 PROMPT=$'
-%{$fg[green]%}%/%{$reset_color%} $(git_prompt_info)$(bzr_prompt_info)%{$fg[w√hite]%}%{$reset_color%} %{$fg[white]%}[%*]%{$reset_color%}
+%{$fg[green]%}%/%{$reset_color%} $(git_prompt_info)$(bzr_prompt_info)%{$fg[w√hite]%}%{$reset_color%}%{$fg[yellow]%}[%*]%{$reset_color%}
 %{$fg_bold[black]%}>%{$reset_color%} '
 
 PROMPT2="%{$fg_blod[black]%}%_> %{$reset_color%}"
